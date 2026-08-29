@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prudent Ponytail"
+  short_description: "prudent-ponytail finds what to change, then ponytail writes less"
+  default_prompt: "Use $prudent-ponytail to identify and lock the smallest complete intervention before implementing it with Ponytail."

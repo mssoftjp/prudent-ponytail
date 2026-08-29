@@ -1,0 +1,36 @@
+{
+  "name": "prudent-ponytail",
+  "version": "0.1.0",
+  "description": "prudent-ponytail finds what to change, then ponytail writes less",
+  "author": {
+    "name": "Musashino Software",
+    "url": "https://github.com/mssoftjp"
+  },
+  "homepage": "https://github.com/mssoftjp/prudent-ponytail",
+  "repository": "https://github.com/mssoftjp/prudent-ponytail",
+  "license": "MIT",
+  "keywords": [
+    "coding-agents",
+    "agent-skills",
+    "software-engineering",
+    "ponytail",
+    "yagni"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Prudent Ponytail",
+    "shortDescription": "prudent-ponytail finds what to change, then ponytail writes less",
+    "longDescription": "Prudent Ponytail finds and locks the smallest complete intervention, then hands implementation to Ponytail.",
+    "developerName": "Musashino Software",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/mssoftjp/prudent-ponytail",
+    "privacyPolicyURL": "https://github.com/mssoftjp/prudent-ponytail/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/mssoftjp/prudent-ponytail/blob/main/TERMS.md",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Use $prudent-ponytail to identify and lock the smallest complete intervention before implementing it with Ponytail."
+    ]
+  }
+}
